@@ -14,7 +14,7 @@ function enqueue_child_styles() {
 
 /*
 * This function appends new allowed domains to the existing list
-* of allowed frame ancestors.
+* of allowed frame ancestors. (This means a list of sites on which P4 pages might be embedded, NOT where content might be embedded to P4 from.)
 */
 function update_planet4_csp_allowed_frame_ancestors($allowlist) {
   $ancestors = [
